@@ -12,6 +12,7 @@ def const(planet_name):            # function name and parameters
     planet.compute(south_bend)                  # calculates the location data
     print date_class
     print planet.ra, planet.dec
+    print planet.alt, planet.az
     return ephem.constellation((planet.ra, planet.dec))
 
 print const(raw_input('Planet: '))
