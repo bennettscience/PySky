@@ -9,7 +9,7 @@ def star(star_name):
     south_bend.lon = '-86.26'
     south_bend.date = date_class
     star.compute(south_bend)
-    print date_class
+    print "Date ", date_class
     print "Mag ", star.mag
     print "RA ", star.ra
     print "Dec ", star.dec
